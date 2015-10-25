@@ -1,0 +1,11 @@
+<template name="nav">
+	<nav>
+		<div class="nav-wrapper">
+			<ul class="left">
+				{{#each listTypes}}
+				<li class="{{isActive name}}"><a href="#">{{label}}</a></li>
+				{{/each}}
+			</ul>
+		</div>
+	</nav>
+</template>
