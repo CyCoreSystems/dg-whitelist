@@ -8,6 +8,7 @@ Template.list.helpers({
    },
    'tableSettings': function() {
       return {
+         rowsPerPage: 5,
          fields: [
             {
                label: 'Site',
