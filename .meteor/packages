@@ -21,3 +21,4 @@ materialize:materialize@=0.97.0
 underscorestring:underscore.string
 fortawesome:fontawesome
 momentjs:moment
+aslagle:reactive-table

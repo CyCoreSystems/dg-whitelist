@@ -1,9 +1,5 @@
 <template name="list">
 	<div class="container">
-		<ul class="striped highlight">
-			{{#each items}}
-				<li><button class="btn delete"><i class="fa fa-trash"></i></button> &nbsp; {{name}}</li>
-			{{/each}}
-		</ul>
+		{{> reactiveTable class="striped highlight" collection=items settings=tableSettings}}
 	</div>
 </template>
