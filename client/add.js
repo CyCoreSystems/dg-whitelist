@@ -12,7 +12,8 @@ Template.add.events({
 
       Lists.insert({
          list: Session.get('selectedList'),
-         name: val
+         name: val,
+         added: moment().unix(),
       }, function(err) {
          if(err) {
             console.error(err);
