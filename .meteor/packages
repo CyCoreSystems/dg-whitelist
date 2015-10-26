@@ -20,4 +20,3 @@ insecure                # Allow all DB writes from clients (for prototyping)
 materialize:materialize@=0.97.0
 underscorestring:underscore.string
 fortawesome:fontawesome
-dg
